@@ -223,7 +223,7 @@ body {
 
   
   
-  @media (min-width: 768px) { /*desktop or tablets */
+  @media (min-width: 768px) { /*desktop  */
     
     body{
       padding: 30px;
@@ -294,9 +294,10 @@ body {
       width: 100%;
       height: fit-content;
     }
-
     
+  }
 
+  @media (min-width: 768px) and (max-width: 1024px) {
     
   }
 

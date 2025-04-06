@@ -204,6 +204,7 @@ body {
     height: 129px;
     align-items: center;
     margin-top: -30px;
+    margin-left: 20px;
 
   }
 
@@ -257,13 +258,22 @@ body {
     }
 
     main section{
-      width:65%
+      width: 65%;
     }
 
     main article{
       width: 30%;
       margin-top: -35px;
     }
+
+    article h3:hover{
+      color: var(--yellow)
+    }
+
+    .down-elements h3:hover{
+     color:var(--light-vermillion)
+    }
+
 
     .heading{
       width: 40%;
@@ -287,18 +297,50 @@ body {
 
     .button-text button:hover{
       color: #FFFDFA;
-      background-color: #F15D51;
+      background-color: var(--dark-space-blue);
     }
 
     .down-elements{
       width: 100%;
       height: fit-content;
     }
+
     
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
     
+    .texts{
+      margin-left: 20px;
+      
+    }
+   
+    main {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: fit-content;
+    }
+
+    main section{
+      width: 100%;
+    }
+
+    .heading{
+      width: 50%;
+    }
+
+    .desktop-image, .heading-butoon{
+      min-width: 50%;
+      
+    }
+
+    article{
+      width: 100% !important;
+      height: fit-content;
+      /* display: block; */
+      margin-top: 50px !important;
+    }
   }
 
   @media (max-width : 767px) { /*mobile*/

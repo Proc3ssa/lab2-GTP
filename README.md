@@ -46,7 +46,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https:github.com/proc3ssa/lab2-GTP)
-- Live Site URL: [Vercel]([https://your-live-site-url.com](https://newswebsite-liart.vercel.app/)
+- Live Site URL: [Vercel](https://newswebsite-liart.vercel.app/)
 
 ## My process
 

@@ -106,9 +106,6 @@ menuToggle.addEventListener('click', () => {
 });
 ```
 
-
-
-
 ### Continued development
 
 - Improve accessibility by adding ARIA attributes and ensuring proper semantic HTML structure.
@@ -131,3 +128,40 @@ menuToggle.addEventListener('click', () => {
 ## Acknowledgments
 
 [Add acknowledgments here]
+
+## Pull Requests
+
+Here are the pull requests created during the development of this project, each focused on a specific feature or bugfix.
+
+---
+
+### 🔁 PR #1 - Add Responsive Navigation Menu
+
+**Branch:** `feature/responsive-navbar`  
+**Description:**  
+Implemented a fully responsive navbar with a mobile-first approach. Includes a hamburger menu that toggles a sliding navigation panel for smaller screens and inline navigation for larger screens.
+
+**Related Issue:** #101  
+**Status:** ✅ Merged
+
+---
+
+### 🧱 PR #2 - Implement Responsive Layout for Character Counter
+
+**Branch:** `feature/responsive-layout`  
+**Description:**  
+Built a responsive layout using Flexbox and media queries to support desktop, tablet, and mobile breakpoints.
+
+**Related Issue:** #102  
+**Status:** ✅ Merged
+
+---
+
+### 🐞 PR #3 - Fix Word Count Bug
+
+**Branch:** `bugfix/word-count`  
+**Description:**  
+Resolved a bug where extra whitespace inflated the word count. The new logic trims input and filters out empty strings during split.
+
+**Related Issue:** #103  
+**Status:** ✅ Merged

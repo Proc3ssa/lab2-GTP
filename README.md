@@ -106,59 +106,7 @@ menuToggle.addEventListener('click', () => {
 });
 ```
 
-## 📝 Description
 
-Briefly describe the purpose of the PR. What feature, bugfix, or improvement does it implement?
-
-> Example:  
-> Adds responsive design to the Character Counter app for mobile, tablet, and desktop using Flexbox and media queries.
-
----
-
-## 📸 Screenshots (if UI-related)
-
-Include before/after images or GIFs if applicable.
-
----
-
-## 🔍 Related Issues
-
-Link to the issue(s) that this PR addresses:
-
-- Closes #
-- Fixes #
-- Resolves #
-
----
-
-## 🧪 How to Test
-
-Steps to test this PR locally:
-
-1. `git checkout branch-name`
-2. Run `npm start` / open `index.html`
-3. Confirm [describe what to test]
-
----
-
-## 🧠 Notes for Reviewers
-
-Mention anything important for the reviewers to pay attention to.
-
-> Example:  
-> - Word counter still breaks on emojis — will fix in a separate PR.
-
----
-
-## ✅ Checklist
-
-- [ ] My code follows the style guidelines of this project  
-- [ ] I have performed a self-review of my own code  
-- [ ] I have commented my code, particularly in hard-to-understand areas  
-- [ ] My changes generate no new warnings  
-- [ ] I have added tests that prove my fix is effective or that my feature works  
-- [ ] New and existing unit tests pass locally with my changes  
-- [ ] I have checked the responsiveness on desktop, tablet, and mobile  
 
 
 ### Continued development

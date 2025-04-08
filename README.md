@@ -26,29 +26,27 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshots
-
+-A full view of the desktop mode.
 ![](./assets/images/desktop.jpg)
 
-A full view of the desktop mode.
+
+-A cropped view of the mobile mode. The image is long.
 
 ![](./assets/images/Mobile.jpg)
 
-A cropped view of the mobile mode. The image is long.
-
+-A view of the mobile menu.
 ![](./assets/images/mobile-menu.png)
 
-A view of the mobile menu.
 
 
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https:github.com/proc3ssa/lab2-GTP)
+- Live Site URL: [Vercel](https://your-live-site-url.com)
 
 ## My process
 

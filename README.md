@@ -119,45 +119,134 @@ menuToggle.addEventListener('click', () => {
 
 ## Git commands used
 
-Here are the pull requests created during the development of this project, each focused on section creation.
+Here are the git commands used during the project.
 
 ---
 
-### 🔁 PR #1 - Add Responsive Navigation Menu
+### Git init
 
-**Branch:** `feature/responsive-navbar`  
+ 
 **Description:**  
-Implemented a fully responsive navbar with a mobile-first approach. Includes a hamburger menu that toggles a sliding navigation panel for smaller screens and inline navigation for larger screens.
+The git init command is used to inialize a git repository, Making the files in that folder trackable by git.
 
-**Related Issue:** #101  
+---
+### Git add .
+
+ 
+**Description:**  
+The git add command is used to stage files in the project. In staging the files are being tracked, and they are waiting for them to be committed.
+
+---
+
+### Git commit -m "description"
+
+ 
+**Description:**  
+The git init command was is used to commit changes to files that are in the staging phase. This command was used a number of times, depending on the changes I wanted to commit.
+
+---
+
+### Git switch -c header
+
+ 
+**Description:**  
+This git command is used to create and switch to a branch called header, and switch to that branch.
+
+---
+
+### Git checkout
+
+ 
+**Description:**  
+The git command is used to switch branches, and also restore a previous version of a file.
+
+---
+
+### git switch -c main-headin
+
+ 
+**Description:**  
+The git command was used to create and switch to a branch called main-heading.
+
+---
+
+### Git swicth -c article
+
+ 
+**Description:**  
+The git command was used to create and switch to a branch named article.
+
+---
+
+## Git swicth -c down-elements
+
+ 
+**Description:**  
+The git command was used to create and switch to a branch named down-elements.
+
+---
+
+## git merge header
+
+ 
+**Description:**  
+The git command was used merge the hearder branch to main.
+
+---
+
+## git merge main-heading
+
+ 
+**Description:**  
+The git command was used merge the main-heading branch to main.
+
+---
+
+## git merge down-elements
+
+ 
+**Description:**  
+The git command was used merge the down-elements branch to main.
+
+---
+
+## PRs
+
+### 🧱 PR #1 - Implemented the down-elements section.
+
+**Branch:** `down-elements`  
+**Description:**  
+Used Flexbox and media queries to build for desktop, tablet, and mobile devices for the down-element section.
+
+**Related Issue:** #2  
+**Status:** ✅ Merged
+
+
+
+### 🧱 PR #2 - Implemented the hearder section.
+
+**Branch:** `header`  
+**Description:**  
+Built a responsive layout using Flexbox and media queries to support desktop, tablet, and mobile breakpoints for the header section.
+
+**Related Issue:** #2  
 **Status:** ✅ Merged
 
 ---
 
-### 🧱 PR #2 - Implement Responsive Layout for Character Counter
+### 🧱 PR #3 - Implemented the main-heading section.
 
-**Branch:** `feature/responsive-layout`  
+**Branch:** `main-heading`  
 **Description:**  
-Built a responsive layout using Flexbox and media queries to support desktop, tablet, and mobile breakpoints.
+Built a responsive  main-heading section layout using Flexbox and media queries to support desktop, tablet, and mobile devices. 
 
-**Related Issue:** #102  
-**Status:** ✅ Merged
-
----
-
-### 🐞 PR #3 - Fix Word Count Bug
-
-**Branch:** `bugfix/word-count`  
-**Description:**  
-Resolved a bug where extra whitespace inflated the word count. The new logic trims input and filters out empty strings during split.
-
-**Related Issue:** #103  
+**Related Issue:** #3  
 **Status:** ✅ Merged
 
 
 ### Continued development
 
-- Improve accessibility by adding ARIA attributes and ensuring proper semantic HTML structure.
+- Improve accessibility by ensuring proper semantic HTML structure.
 - Write unit tests to ensure the JavaScript functionality is robust.
 - Explore CSS Grid for more complex layouts in future projects.
 - Optimize CSS for better performance and maintainability.
@@ -170,10 +259,8 @@ Resolved a bug where extra whitespace inflated the word count. The new logic tri
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Faisal Halid Dene](https://www.your-site.com)
 
-## Acknowledgments
+- Twitter - [P R O C E S S O R](https://www.x.com/processor_911)
 
-[Add acknowledgments here]
+

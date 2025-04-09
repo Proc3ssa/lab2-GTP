@@ -1,6 +1,6 @@
 # Amalitech lab-2 - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). 
 
 ## Table of contents
 
@@ -11,6 +11,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Commands used](#git-commands-used)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -60,6 +61,7 @@ Users should be able to:
 
 ### What I learned
 
+-Proper translation of UI design to code.
 - Implementing a responsive navigation bar that adapts to different screen sizes.
 - Using CSS Flexbox for layout and alignment.
 - Creating a mobile menu that toggles on and off using JavaScript.
@@ -114,32 +116,10 @@ menuToggle.addEventListener('click', () => {
 });
 ```
 
-### Continued development
 
-- Improve accessibility by adding ARIA attributes and ensuring proper semantic HTML structure.
-- Write unit tests to ensure the JavaScript functionality is robust.
-- Explore CSS Grid for more complex layouts in future projects.
-- Optimize CSS for better performance and maintainability.
+## Git commands used
 
-### Useful resources
-
-- [Frontend Mentor](https://www.frontendmentor.io) - For providing the challenge and design specifications.
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) - For HTML, CSS, and JavaScript documentation and tutorials.
-- [CSS-Tricks](https://css-tricks.com/) - For CSS layout techniques and best practices.
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-## Acknowledgments
-
-[Add acknowledgments here]
-
-## Pull Requests
-
-Here are the pull requests created during the development of this project, each focused on a specific feature or bugfix.
+Here are the pull requests created during the development of this project, each focused on section creation.
 
 ---
 
@@ -173,3 +153,27 @@ Resolved a bug where extra whitespace inflated the word count. The new logic tri
 
 **Related Issue:** #103  
 **Status:** ✅ Merged
+
+
+### Continued development
+
+- Improve accessibility by adding ARIA attributes and ensuring proper semantic HTML structure.
+- Write unit tests to ensure the JavaScript functionality is robust.
+- Explore CSS Grid for more complex layouts in future projects.
+- Optimize CSS for better performance and maintainability.
+
+### Useful resources
+
+- [Frontend Mentor](https://www.frontendmentor.io) - For providing the challenge and design specifications.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - For HTML, CSS, and JavaScript documentation and tutorials.
+- [CSS-Tricks](https://css-tricks.com/) - For CSS layout techniques and best practices.
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+## Acknowledgments
+
+[Add acknowledgments here]

@@ -41,6 +41,11 @@ body {
   .menu-toggle {
     display: block;
   }
+  hr{
+    height: 0.5px;
+    color: var(--silver);
+    opacity: 0.3;
+  }
   
   .mobile-menu {
     position: fixed;
@@ -165,6 +170,7 @@ body {
   article h3{
     font-family: 'inter', sans-serif;
     font-weight: bolder;
+    cursor: pointer;
   }
   article div{
     padding: 10px;
@@ -271,7 +277,8 @@ body {
     }
 
     .down-elements h3:hover{
-     color:var(--light-vermillion)
+     color:var(--light-vermillion);
+     cursor: pointer;
     }
 
 
@@ -298,6 +305,9 @@ body {
     .button-text button:hover{
       color: #FFFDFA;
       background-color: var(--dark-space-blue);
+    transition: background-color 0.5s ease;
+
+      
     }
 
     .down-elements{
